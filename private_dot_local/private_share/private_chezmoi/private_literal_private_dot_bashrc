@@ -1,0 +1,5 @@
+export PREFIX=/data/data/com.termux/files/usr
+export HOME=/data/data/com.termux/files/home
+export EDITOR=$PREFIX/bin/nano
+
+export N_PREFIX="/data/data/com.termux/files/home/n"; [[ :$PATH: == *":/data/data/com.termux/files/home/n/bin:"* ]] || PATH+=":/data/data/com.termux/files/home/n/bin"  # Added by n-install (see http://git.io/n-install-repo).
